@@ -1,0 +1,65 @@
+body {}
+
+.container {
+    font-weight: bold;
+
+}
+
+.header {
+    border: 3px solid black;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    border: 3px solid black;
+    height: 40px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.combine {}
+
+.right {
+
+    flex: 1;
+
+}
+
+.content-1 {
+    border: 3px solid black;
+    flex: 2;
+    padding: 10px;
+    margin-bottom: 0.5em;
+    height: 520px;
+}
+
+.content-2 {
+    border: 3px solid black;
+    height: 240px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.content-3 {
+    border: 3px solid black;
+    height: 240px;
+    padding: 10px;
+
+}
+
+
+
+@media screen and (min-width:600px) {
+    .combine {
+        display: flex;
+
+    }
+
+    .right {
+        margin-left: 0.8em;
+    }
+
+
+}

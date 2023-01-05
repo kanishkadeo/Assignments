@@ -1,0 +1,52 @@
+#row1,
+#row4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#both {
+
+    justify-content: space-around;
+    margin-top: 9%;
+    margin-bottom: 8%;
+    margin-left: 10%;
+}
+
+#row2 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#row3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#a,
+#b,
+#c,
+#d {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 22px;
+    margin-right: 16%;
+    margin-left: 10%;
+}
+
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10,
+.box11,
+.box12 {
+    width: 100px;
+    height: 100px;
+}
